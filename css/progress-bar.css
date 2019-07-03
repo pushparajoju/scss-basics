@@ -1,0 +1,10 @@
+.bar {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.fill {
+  background-color: magenta;
+  background-image: linear-gradient(to right, magenta, red, orange);
+  height: 10px;
+}

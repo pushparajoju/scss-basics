@@ -1,0 +1,8 @@
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" ; // directly importing bootstrap
+
+@import './scss/partials/reset';  // underscore not reqd. (chunking and importing i.e., using other scss in this file)
+body {  
+  font: 100% Helvetica, sans-serif;  
+  background-color: #efefef;  
+} 

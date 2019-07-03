@@ -1,0 +1,15 @@
+{
+  "name": "myproject-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node-sass  ./scss  --output ./css  --output-style expanded"
+  },
+  "author": "",
+  "license": "ISC"
+}

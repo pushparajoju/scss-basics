@@ -1,0 +1,219 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+p {
+  color: blue;
+}
+
+a {
+  color: red;
+}
+
+div {
+  color: darkorange;
+  background-color: #87cca6;
+}
+
+p {
+  color: darkorange;
+}
+
+h2 {
+  font-size: 17px;
+  width: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-size: 0.66667;
+}
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.cont {
+  background-color: #77C1EF;
+  color: yellow;
+}
+
+h3 {
+  color: red;
+}
+
+.mystyle {
+  color: darkorange;
+  border: 5px solid black;
+  width: 500px;
+}
+
+.myselector {
+  background-color: magenta;
+  background-image: linear-gradient(to right, magenta, red, orange, yellow, green, blue, purple);
+}
+
+.myblock {
+  color: blue;
+}
+
+h2 {
+  color: violet;
+}
+
+.style {
+  width: 500px;
+}
+
+@media screen and (orientation: portrait) {
+  .style {
+    width: 200px;
+    margin-left: 80px;
+  }
+}
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: yellow;
+}
+
+.button-base, .error-button, .menu-button-error, .error-button02 {
+  margin: 2px;
+  border-radius: 2px;
+}
+
+.error-button, .menu-button-error {
+  background-color: red;
+}
+
+.error-base, .error-button02 {
+  background-color: red;
+}
+
+@media print {
+  .text, p {
+    font-family: Sans Serif;
+  }
+  p {
+    color: black;
+  }
+}
+
+aside {
+  color: green;
+}
+
+.p1 {
+  padding-left: 10px;
+}
+
+.p2 {
+  padding-left: 20px;
+}
+
+.p3 {
+  padding-left: 30px;
+}
+
+.p4 {
+  padding-left: 40px;
+}
+
+.banner_pink {
+  background-color: pink;
+}
+
+.banner_violet {
+  background-color: violet;
+}
+
+.banner_yellow {
+  background-color: yellow;
+}
+
+.banner_blue {
+  background-color: blue;
+}
+
+p {
+  color: blue;
+}
+
+.item-3 {
+  color: red;
+}
+
+.item-4 {
+  color: red;
+}
+
+h2 {
+  color: #66c8ff;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.mydiv01 {
+  color: "red";
+}
+
+p {
+  color: cyan;
+  font-size: 20px;
+}
+
+.profile-pic2 {
+  float: left;
+  width: 250px;
+}
+
+@media only screen and (max-width: 320px) {
+  .profile-pic2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 1024px) {
+  .profile-pic2 {
+    width: 125px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-pic2 {
+    float: none;
+  }
+}
+
+.fill {
+  width: 200px;
+  height: 20px;
+  color: red;
+}

@@ -1,0 +1,13 @@
+$border-color: black;
+@mixin linear-gradient($direction, $gradients...) {  
+    background-color: nth($gradients, 1);  
+    background-image: linear-gradient($direction, $gradients);  
+  } 
+.bar{
+    border: 1px solid $border-color;
+    border-radius: 10px;
+}
+.fill{
+    @include linear-gradient(to right,magenta, red, orange);
+    height: 10px;
+}
